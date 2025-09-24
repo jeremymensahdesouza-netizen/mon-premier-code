@@ -1,0 +1,133 @@
+# menzoo_profile.yaml
+# Version: 0.1
+# LastUpdated: 2025-09-24
+
+identity:
+  preferred_name: "menzoo"
+  full_name: "Jérémy Mensah"
+  age: 25
+  roles:
+    - "Entrepreneur culturel"
+    - "Producteur musical / Ingénieur du son (Pro Tools)"
+    - "Président & fondateur de RQT Records"
+  location_base: "Noisy-le-Grand (FR)"
+  driver_license: "Permis B"
+  education:
+    - program: "Diplôme d’ingénieur du son"
+      school: "Sound Academy (Studio Artistic Palace)"
+      year: 2024
+    - program: "DU Entrepreneur TPE (en cours)"
+      school: "Université Gustave Eiffel"
+    - program: "Licence Économie & sciences sociales (parcours)"
+      school: "—"
+
+mission_statement: >
+  Construire des écosystèmes culturels inclusifs, data‑driven et durables.
+  Démocratiser la production musicale, professionnaliser l’accompagnement des talents,
+  et piloter l’investissement culturel par la donnée (plateforme Yasmine).
+
+values:
+  - Inclusion et accessibilité
+  - Rigueur, transparence et exécution
+  - Vision long terme et impact local → global
+  - Créativité au service du réel (résultats, pas d’esbroufe)
+
+communication_style:
+  person: "Tutoiement"
+  tone: "Direct, rationnel, orienté futur, pédagogique, sans emphase inutile"
+  constraints:
+    - "Éviter le gras/formatage tape-à-l’œil"
+    - "Toujours proposer next steps concrets"
+
+skills:
+  hard:
+    - "Production audio: enregistrement, mixage, supervision mastering"
+    - "Pro Tools, workflows studio"
+    - "Gestion de projet culturel & événementiel"
+    - "Direction artistique & A&R"
+    - "Conception produit data/IA (vision, cadrage MVP)"
+  soft:
+    - "Leadership terrain, coordination de bénévoles/formateurs"
+    - "Esprit analytique et stratégique"
+    - "Pédagogie (ateliers beatmaking/écriture/coaching vocal)"
+    - "Résilience opérationnelle, sens de l’organisation"
+
+projects:
+  - name: "RQT Records"
+    type: "Association / label"
+    focus: "Production, management d’artistes, ateliers, événements"
+    location: "Noisy-le-Grand (FR)"
+    status: "Actif"
+    goals:
+      - "Créer un centre culturel multifonction (studio, vidéo, évènementiel)"
+      - "Soutenir 50+ jeunes artistes sur 24 mois"
+  - name: "Défi RQT"
+    type: "Événement / concours"
+    focus: "Studio éphémère, freestyle filmé, vote public"
+    status: "Pérennisé (format)"
+    notes: "Partenariats locaux; billetterie/HelloAsso envisagée"
+  - name: "Média panafricain digital"
+    type: "Média & marque culturelle"
+    focus: "Contenu IG/TikTok, ebooks, mini-formations, merch, newsletter premium, club privé"
+    roadmap:
+      months_0_3: "Production de contenu massif quotidien"
+      months_3_6: "Lancement ebooks + t-shirts"
+      months_6_12: "Club privé/newsletter payante/formations"
+    status: "En préparation"
+  - name: "Yasmine"
+    type: "Plateforme IA (risk management culturel)"
+    focus: "A&R radar, scoring J+14/J+28, anti-fraude v1, tendances FR, Touring Desk basique"
+    status: "Projet prioritaire (MVP en préparation)"
+    budget_estimate:
+      mvp_eur: 300000
+      scaling_year_eur: 550000
+      long_term_year_eur: 2000000
+    dependencies:
+      - "Accès data: Spotify, YouTube, TikTok (via tiers), Bandsintown/Songkick, panels (ex. Luminate)"
+      - "Conformité: RGPD + AI Act (DPIA, base légale, hébergement UE)"
+      - "Partenariats: distributeurs, salles/festivals, médias urbains"
+    team_core:
+      - "Data engineer"
+      - "ML engineer"
+      - "MLOps/Infra"
+      - "Full‑stack dev"
+      - "PM/UX data‑viz"
+      - "Bizdev musique FR"
+      - "DPO/Juriste (fractionné)"
+  - name: "Centre culturel RQT"
+    type: "Lieu hybride (vision)"
+    focus: "Studio, vidéo, ateliers, programmation"
+    status: "Long terme"
+
+operational_gaps:
+  - "Comptabilité associative à rattraper (exercice annuel)"
+  - "Accès/licences data pour Yasmine à sécuriser"
+  - "Partenaires clés à formaliser (distributeurs, salles, panels)"
+
+priorities_now:
+  - "Yasmine MVP: données FR + A&R radar + scoring + anti‑fraude v1"
+  - "RQT: consolider ateliers & événements récurrents"
+  - "Média panafricain: contenu cohérent, sans dépendre de Yasmine (synergies plus tard)"
+
+kpis_watchlist:
+  - "Précision détection artistes émergents (top quartile FR)"
+  - "MAPE prévisions streams J+14/J+28"
+  - "Lift moyen des campagnes data‑driven vs benchmark"
+  - "Adoption indés/labels régionaux et NPS"
+  - "Clôture comptable et conformité (zéro retard)"
+
+tools_preferences:
+  - "Gestion projet: Notion/Sheets"
+  - "Audio: Pro Tools"
+  - "Dev/R&D: Python, notebooks, FastAPI/Streamlit pour protos"
+  - "Stockage: cloud UE chiffré"
+
+privacy_policy_personal_ai:
+  scope_included:
+    - "Exports de conversations que Jérémy fournit volontairement (JSON/HTML/TXT)"
+    - "Docs projets RQT/Yasmine/Média fournis par Jérémy"
+  scope_excluded:
+    - "Données privées non partagées ou sensibles (PII non nécessaire)"
+  retention: "Durée définie par Jérémy; droit à l’oubli sur demande"
+  access_control: "Accès exclusif Jérémy; logs d’accès"
+  hosting: "UE uniquement; chiffrement au repos/en transit"
